@@ -2,7 +2,7 @@
 import java.awt.event.KeyEvent;
 
 
-
+//Va a heredar
 public class CrearPartido extends javax.swing.JFrame
 {
    

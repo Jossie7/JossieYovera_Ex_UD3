@@ -8,6 +8,8 @@ import javax.swing.JDialog;
  * and open the template in the editor.
  */
 
+
+//Vamos a introducir 2 equipos cuando lo ejecutemos, mediante este formato "nombre - nombre" 
 public class Apuesta extends javax.swing.JFrame {
 
    //Se ha creado nuestro constructor
