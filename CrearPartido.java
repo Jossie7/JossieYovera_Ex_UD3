@@ -9,13 +9,13 @@ public class CrearPartido extends javax.swing.JFrame
     
     private Apuesta v;
     
-   
+   //Hemos creado nuestro constructor
     public CrearPartido()
     {
         initComponents();
     }
 
-   
+   //Hemos sobrecargado nuestro constructor
     public CrearPartido(Apuesta ventana)
     {
         initComponents();
@@ -69,7 +69,8 @@ public class CrearPartido extends javax.swing.JFrame
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    //Hemos añadido más métodos
     public void añadePartido(String p)
     {
         v.partidoNuevo(p);
