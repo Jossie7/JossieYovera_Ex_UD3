@@ -10,7 +10,7 @@ import javax.swing.JDialog;
 
 public class Apuesta extends javax.swing.JFrame {
 
-   
+   //Se ha creado nuestro constructor
     public Apuesta()
     {
         initComponents();
@@ -139,7 +139,9 @@ public class Apuesta extends javax.swing.JFrame {
         this.listaResultados.setModel(modelovacio);
     }//GEN-LAST:event_bResetearActionPerformed
 
-   
+   /*en este apartado se ha refactorizado
+    *y hemos editado el nombre por randomNumeros
+    */
     public int randomNumeros(int n1, int n2)
     {
         return (int)Math.floor((Math.random()*(n2-n1+1) + n1));
@@ -171,7 +173,10 @@ public class Apuesta extends javax.swing.JFrame {
         this.listaResultados.setModel(modeloquinielaresuelta);
     }//GEN-LAST:event_bRealizarActionPerformed
 
-    
+    /*Hemos creado el método que realizará la función para cuando se introduzcan nombres de
+    *quipos nuevos y así se porigina un nuevo partido.
+    */
+            
     public void partidoNuevo(String partido)
     {
         DefaultListModel modelonuevo = new DefaultListModel();
@@ -185,7 +190,7 @@ public class Apuesta extends javax.swing.JFrame {
         this.listaQuiniela.setModel(modelonuevo);
     }
     
-  
+  //Acá es para borrar el partido y que se ejecute otro
     public void borrarPartido(int indice)
     {
         DefaultListModel modelonuevoquiniela = new DefaultListModel();
